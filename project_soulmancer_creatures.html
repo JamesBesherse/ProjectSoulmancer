@@ -18,6 +18,25 @@
         Creatures will be the monsters and animals that populate the world. Most will be tamable except for unique boss creatures. You will find different creatures as you explore the varies regions of the world.
       </p>
     </div>
+    <div id="Slime" class="StatPanel">
+      <p class="About_P">Slime</p>
+      <div class="Stats">
+        <ul>
+          <li>HP: 5</li>
+          <li>MP: 0</li>
+          <li>STR: 1</li>
+          <li>DEX: 10</li>
+        </ul>
+        <ul>
+          <li>INT: 0</li>
+          <li>LCK: 0</li>
+          <li>RES: 10</li>
+          <li>CHA: 20</li>
+        </ul>
+      </div>
+      <p class="About_P"> Stats are not final </p>
+      <button onclick="closeStatPanel()">Close</button>
+    </div>
     <div id="Goblin" class="StatPanel">
       <p class="About_P">Goblin</p>
       <div class="Stats">
@@ -94,6 +113,44 @@
         <p class="About_P"> Stats are not final </p>
         <button onclick="closeStatPanel()">Close</button>
       </div>
+    <div id="Ghoul" class="StatPanel">
+      <p class="About_P">Ghoul</p>
+      <div class="Stats">
+        <ul>
+          <li>HP: 10</li>
+          <li>MP: 0</li>
+          <li>STR: 2</li>
+          <li>DEX: 3</li>
+        </ul>
+        <ul>
+          <li>INT: 5</li>
+          <li>LCK: 2</li>
+          <li>RES: 4</li>
+          <li>CHA: 0</li>
+        </ul>
+      </div>
+      <p class="About_P"> Stats are not final </p>
+      <button onclick="closeStatPanel()">Close</button>
+    </div>
+    <div id="Vampire" class="StatPanel">
+      <p class="About_P">Vampire</p>
+      <div class="Stats">
+        <ul>
+          <li>HP: 230</li>
+          <li>MP: 460</li>
+          <li>STR: 50</li>
+          <li>DEX: 75</li>
+        </ul>
+        <ul>
+          <li>INT: 85</li>
+          <li>LCK: 0</li>
+          <li>RES: 90</li>
+          <li>CHA: 100</li>
+        </ul>
+      </div>
+      <p class="About_P"> Stats are not final </p>
+      <button onclick="closeStatPanel()">Close</button>
+    </div>
     <div id="Deer" class="StatPanel">
       <p class="About_P">Deer</p>
       <div class="Stats">
@@ -151,16 +208,39 @@
       <p class="About_P"> Stats are not final </p>
       <button onclick="closeStatPanel()">Close</button>
     </div>
+    <div id="Bear" class="StatPanel">
+      <p class="About_P">Bear</p>
+      <div class="Stats">
+        <ul>
+          <li>HP: 75</li>
+          <li>MP: 0</li>
+          <li>STR: 50</li>
+          <li>DEX: 25</li>
+        </ul>
+        <ul>
+          <li>INT: 20</li>
+          <li>LCK: 10</li>
+          <li>RES: 25</li>
+          <li>CHA: 15</li>
+        </ul>
+      </div>
+      <p class="About_P"> Stats are not final </p>
+      <button onclick="closeStatPanel()">Close</button>
+    </div>
     <section>
       <p class="About_P">Creatures</p>
+      <button onclick="openStatPanel('Slime')">Slime</button>
       <button onclick="openStatPanel('Goblin')">Goblin</button>
       <button onclick="openStatPanel('HobGoblin')">HobGoblin</button>
       <button onclick="openStatPanel('Ogre')">Ogre</button>
       <button onclick="openStatPanel('HighOgre')">High Ogre</button>
+      <button onclick="openStatPanel('Ghoul')">Ghoul</button>
+      <button onclick="openStatPanel('Vampire')">Vampire</button>
       <p class="About_P">Animals</p>
       <button onclick="openStatPanel('Deer')">Deer</button>
       <button onclick="openStatPanel('Rabbit')">Rabbit</button>
       <button onclick="openStatPanel('Wolf')">Wolf</button>
+      <button onclick="openStatPanel('Bear')">Bear</button>
     </section>
     <section class="Section_Nav_main">
       <nav class="Nav_main Nav">

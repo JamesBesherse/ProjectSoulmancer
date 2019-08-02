@@ -1,3 +1,8 @@
+/* Creatures */
+#Slime{
+  display: none;
+}
+
 #Goblin{
   display: none;
 }
@@ -14,6 +19,14 @@
   display: none;
 }
 
+#Ghoul{
+  display:none;
+}
+
+#Vampire{
+  display: none;
+}
+/* Animals */
 #Deer{
   display: none;
 }
@@ -23,5 +36,9 @@
 }
 
 #Wolf{
+  display: none;
+}
+
+#Bear{
   display: none;
 }
