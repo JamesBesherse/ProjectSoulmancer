@@ -215,9 +215,10 @@ a:hover {
 }
 
 .StatPanel{
-  margin: 10px 30%;
+  margin: 10px auto;
   background: #1b1b1b;
   border: 1px solid grey;
+  width: 25%;
 }
 
 .Stats{
